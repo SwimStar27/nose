@@ -1,0 +1,23 @@
+body{
+    text-align: center;
+    background-image: url("background.jpg");
+}
+
+#button1:hover{
+background-color: yellow;
+color: navy;
+}
+canvas{
+    animation-name: rudolph;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes rudolph {
+    from {
+        box-shadow: 1px 1px 50px purple;
+    }
+    to {
+        box-shadow: 1px 1px 50px midnightblue ;
+    }
+}
